@@ -64,6 +64,3 @@ To predict customer satisfaction scores (ranging from 1 to 5) using features suc
  - [Flipkart_Customer_Satisfaction_Prediction.ipynb](./Flipkart_Customer_Satisfaction_Prediction.ipynb)
 
 ---
-
-## 🔗 Project Link
-- Colab Notebook: (https://colab.research.google.com/drive/1Uml02fof2qXHp-8-vBCis1mGmz6Axnts?usp=sharing)

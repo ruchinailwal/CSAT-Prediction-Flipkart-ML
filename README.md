@@ -60,7 +60,4 @@ To predict customer satisfaction scores (ranging from 1 to 5) using features suc
 
 ---
 
-## 📂 Project Files
- - [Flipkart_Customer_Satisfaction_Prediction.ipynb](./Flipkart_Customer_Satisfaction_Prediction.ipynb)
 
----

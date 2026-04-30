@@ -1,12 +1,12 @@
-# Customer Satisfaction Prediction (CSAT)
+# Customer Satisfaction Prediction using Machine Learning (Flipkart)
 
 ## 📌 Project Overview
-This project focuses on predicting customer satisfaction (CSAT score) using machine learning techniques based on customer service interaction data. The goal is to analyze key factors affecting customer experience and build a predictive model.
+This project focuses on predicting customer satisfaction (CSAT score) using machine learning techniques based on customer service interaction data. The goal is to analyze key factors affecting customer experience and build a predictive classification model.
 
 ---
 
 ## 📊 Problem Statement
-To predict customer satisfaction scores (1–5) using features such as communication channel, agent performance, response time, and interaction details.
+To predict customer satisfaction scores (ranging from 1 to 5) using features such as communication channel, issue category, agent performance, response time, and interaction details.
 
 ---
 
@@ -20,9 +20,10 @@ To predict customer satisfaction scores (1–5) using features such as communica
 
 ## 🔍 Approach
 - Data Cleaning and Preprocessing  
+- Handling Missing Values  
+- Feature Engineering (Response Time Calculation)  
 - Exploratory Data Analysis (EDA)  
-- Feature Engineering (Response Time)  
-- Model Building and Comparison  
+- Model Building and Evaluation  
 
 ---
 
@@ -35,26 +36,34 @@ To predict customer satisfaction scores (1–5) using features such as communica
 
 ## 📈 Results
 - Achieved ~71% accuracy after hyperparameter tuning  
-- Identified class imbalance affecting model performance  
+- Model performance affected due to class imbalance  
 
 ---
 
 ## 💡 Key Insights
-- Majority of CSAT scores are high (class imbalance)  
-- Model is biased towards majority class  
-- Accuracy alone is not a reliable metric  
+- Majority of CSAT scores are high (class imbalance present)  
+- Models are biased towards the majority class (score = 5)  
+- Accuracy alone is not a reliable evaluation metric in this case  
 
 ---
 
 ## ⚠️ Limitations
 - Imbalanced dataset  
-- Poor performance on minority classes  
+- Poor prediction performance for minority classes (1–4)  
 
 ---
 
 ## 🚀 Future Improvements
-- Apply SMOTE for handling imbalance  
+- Apply SMOTE to handle class imbalance  
 - Improve feature engineering  
-- Try advanced models  
+- Try advanced models and class weighting techniques  
 
+---
 
+## 📂 Project Files
+ - [Flipkart_Customer_Satisfaction_Prediction.ipynb](./Flipkart_Customer_Satisfaction_Prediction.ipynb)
+
+---
+
+## 🔗 Project Link
+- Colab Notebook: (https://colab.research.google.com/drive/1Uml02fof2qXHp-8-vBCis1mGmz6Axnts?usp=sharing)

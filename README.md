@@ -1,4 +1,4 @@
-# Customer Satisfaction Prediction using Machine Learning (Flipkart)
+# 📊 Customer Satisfaction Prediction using Machine Learning (Flipkart)
 
 ## 📌 Project Overview
 This project focuses on predicting customer satisfaction (CSAT score) using machine learning techniques based on customer service interaction data. The goal is to analyze key factors affecting customer experience and build a predictive classification model.
@@ -15,6 +15,11 @@ To predict customer satisfaction scores (ranging from 1 to 5) using features suc
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
 - Scikit-learn  
+
+---
+
+## 📁 Project File
+- 📒 [Flipkart_Customer_Satisfaction_Prediction.ipynb](Flipkart_Customer_Satisfaction_Prediction.ipynb)
 
 ---
 
@@ -60,4 +65,7 @@ To predict customer satisfaction scores (ranging from 1 to 5) using features suc
 
 ---
 
+## 📌 Conclusion
+This project demonstrates how machine learning can be used to analyze customer service data and predict satisfaction levels. It highlights the importance of handling class imbalance for better model performance.
 
+---
